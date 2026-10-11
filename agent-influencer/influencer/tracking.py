@@ -15,7 +15,7 @@ from .persona import Persona
 
 # Crockford-style alphabet without 0/O/1/I/L so codes survive being typed on a phone.
 _ALPHABET = "23456789ABCDEFGHJKMNPQRSTUVWXYZ"
-CODE_RE = re.compile(r"\b([A-Z]{2,8})[-\s]?([2-9A-HJKMNP-Z]{4})\b")
+CODE_TAIL = r"[2-9A-HJKMNP-Z]{4}"
 
 
 def make_code(prefix: str, post_id: str) -> str:
@@ -32,11 +32,14 @@ def extract_codes(text: str, prefixes: list[str]) -> list[str]:
 
     Prefixes are required: without them ordinary Swahili ("ASANTE SANA") would parse as a code.
     """
-    wanted = {p.upper() for p in prefixes}
+    # Match only known prefixes: a generic [A-Z]+ prefix reads "CODE KIBO-M6D2" as
+    # prefix CODE + tail KIBO and swallows the real code.
+    wanted = [re.sub(r"[^A-Z]", "", p.upper()) for p in prefixes if p]
+    if not wanted:
+        return []
+    pattern = re.compile(rf"\b({'|'.join(wanted)})[-\s]?({CODE_TAIL})\b")
     found = []
-    for prefix, tail in CODE_RE.findall(text.upper()):
-        if prefix not in wanted:
-            continue
+    for prefix, tail in pattern.findall(text.upper()):
         code = f"{prefix}-{tail}"
         if code not in found:
             found.append(code)

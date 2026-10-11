@@ -46,6 +46,10 @@ def test_codes_are_stable_typeable_and_extractable():
     msg = f"Habari! Nataka caramel latte mbili, code {code[:4].lower()}{code[5:].lower()} asante sana"
     assert extract_codes(msg, ["KIBO"]) == [code]
     assert extract_codes("ASANTE SANA KAKA", ["KIBO", "KILI"]) == []
+    # A prefix made only of code letters (BABU) must not be swallowed by the word "CODE" before it.
+    babu = make_code("BABU", "babu-20261012-d1s0")
+    assert extract_codes(f"nataka code {babu}", ["BABU"]) == [babu]
+    assert extract_codes(f"CODE {babu} na {code}", ["KIBO", "BABU"]) == [babu, code]
 
 
 def test_links_carry_the_code():
