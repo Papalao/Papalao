@@ -1,0 +1,224 @@
+{
+  "name": "Simba Coffee",
+  "whatsapp_e164": "+255655966666",
+  "payment_note": "LIPA Namba 6121 3863",
+  "store_url": "",
+  "products": [
+    {
+      "sku": "americano",
+      "name": "Americano (Iced/Hot)",
+      "price": 7000.0,
+      "currency": "TZS",
+      "category": "classic",
+      "unit": "cup",
+      "image": "https://images.unsplash.com/photo-1503481766315-7a586b20f66d?q=80&w=900&auto=format&fit=crop"
+    },
+    {
+      "sku": "cappuccino",
+      "name": "Cappuccino",
+      "price": 8000.0,
+      "currency": "TZS",
+      "category": "classic",
+      "unit": "cup",
+      "image": "https://images.unsplash.com/photo-1485808191679-5f86510681a2?q=80&w=900&auto=format&fit=crop"
+    },
+    {
+      "sku": "latte",
+      "name": "Latte (Iced/Hot)",
+      "price": 8000.0,
+      "currency": "TZS",
+      "category": "classic",
+      "unit": "cup",
+      "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=900&auto=format&fit=crop"
+    },
+    {
+      "sku": "espresso-s",
+      "name": "Espresso — Single",
+      "price": 3000.0,
+      "currency": "TZS",
+      "category": "classic",
+      "unit": "cup",
+      "image": "https://images.unsplash.com/photo-1470337458703-46ad1756a187?q=80&w=900&auto=format&fit=crop"
+    },
+    {
+      "sku": "espresso-d",
+      "name": "Espresso — Double",
+      "price": 6000.0,
+      "currency": "TZS",
+      "category": "classic",
+      "unit": "cup",
+      "image": "https://images.unsplash.com/photo-1470337458703-46ad1756a187?q=80&w=900&auto=format&fit=crop"
+    },
+    {
+      "sku": "caramel-latte",
+      "name": "Caramel Latte",
+      "price": 10000.0,
+      "currency": "TZS",
+      "category": "signature",
+      "unit": "cup",
+      "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=900&auto=format&fit=crop"
+    },
+    {
+      "sku": "oat-latte",
+      "name": "Oatly Latte (Iced/Hot)",
+      "price": 12000.0,
+      "currency": "TZS",
+      "category": "signature",
+      "unit": "cup",
+      "image": "https://images.unsplash.com/photo-1517705008128-361805f42e86?q=80&w=900&auto=format&fit=crop"
+    },
+    {
+      "sku": "osmanthus-latte",
+      "name": "Osmanthus Latte",
+      "price": 12000.0,
+      "currency": "TZS",
+      "category": "signature",
+      "unit": "cup",
+      "image": "https://images.unsplash.com/photo-1461988625982-7e46a099bf4f?q=80&w=900&auto=format&fit=crop"
+    },
+    {
+      "sku": "grape-americano",
+      "name": "Green Grape Americano",
+      "price": 8000.0,
+      "currency": "TZS",
+      "category": "signature",
+      "unit": "cup",
+      "image": "https://images.unsplash.com/photo-1527169402691-feff5539e52c?q=80&w=900&auto=format&fit=crop"
+    },
+    {
+      "sku": "apple-americano",
+      "name": "Apple Americano",
+      "price": 8000.0,
+      "currency": "TZS",
+      "category": "signature",
+      "unit": "cup",
+      "image": "https://images.unsplash.com/photo-1505575972945-2804b5c9fca4?q=80&w=900&auto=format&fit=crop"
+    },
+    {
+      "sku": "orange-soda-americano",
+      "name": "Orange Soda Americano",
+      "price": 8000.0,
+      "currency": "TZS",
+      "category": "signature",
+      "unit": "cup",
+      "image": "https://images.unsplash.com/photo-1495605952598-956edca968d5?q=80&w=900&auto=format&fit=crop"
+    },
+    {
+      "sku": "jasmine-tea",
+      "name": "Jasmine Cold Brew Tea",
+      "price": 7000.0,
+      "currency": "TZS",
+      "category": "noncoffee",
+      "unit": "cup",
+      "image": "https://images.unsplash.com/photo-1528892952291-009c663ce843?q=80&w=900&auto=format&fit=crop"
+    },
+    {
+      "sku": "oolong-tea",
+      "name": "Oolong Cold Brew Tea",
+      "price": 7000.0,
+      "currency": "TZS",
+      "category": "noncoffee",
+      "unit": "cup",
+      "image": "https://images.unsplash.com/photo-1509440159598-8b2e1c06fe5b?q=80&w=900&auto=format&fit=crop"
+    },
+    {
+      "sku": "matcha-latte",
+      "name": "Matcha Latte (Iced/Hot)",
+      "price": 10000.0,
+      "currency": "TZS",
+      "category": "noncoffee",
+      "unit": "cup",
+      "image": "https://images.unsplash.com/photo-1604909052743-93b2f7b6f2e3?q=80&w=900&auto=format&fit=crop"
+    },
+    {
+      "sku": "matcha-lemon-soda",
+      "name": "Matcha Lemon Soda",
+      "price": 14000.0,
+      "currency": "TZS",
+      "category": "noncoffee",
+      "unit": "cup",
+      "image": "https://images.unsplash.com/photo-1535914254981-b5012eebbd15?q=80&w=900&auto=format&fit=crop"
+    },
+    {
+      "sku": "thai-milk-tea",
+      "name": "Thai Milk Tea",
+      "price": 12000.0,
+      "currency": "TZS",
+      "category": "noncoffee",
+      "unit": "cup",
+      "image": "https://images.unsplash.com/photo-1556679343-c7306c2f31c4?q=80&w=900&auto=format&fit=crop"
+    },
+    {
+      "sku": "hot-chocolate",
+      "name": "Hot Chocolate",
+      "price": 12000.0,
+      "currency": "TZS",
+      "category": "noncoffee",
+      "unit": "cup",
+      "image": "https://images.unsplash.com/photo-1517705008128-361805f42e86?q=80&w=900&auto=format&fit=crop"
+    },
+    {
+      "sku": "ginger-tea",
+      "name": "Hot Black Sugar Ginger Tea",
+      "price": 8000.0,
+      "currency": "TZS",
+      "category": "caffeinefree",
+      "unit": "cup",
+      "image": "https://images.unsplash.com/photo-1511920170033-f8396924c348?q=80&w=900&auto=format&fit=crop"
+    },
+    {
+      "sku": "soda",
+      "name": "Soda",
+      "price": 3000.0,
+      "currency": "TZS",
+      "category": "caffeinefree",
+      "unit": "cup",
+      "image": "https://images.unsplash.com/photo-1497534446932-c925b458314e?q=80&w=900&auto=format&fit=crop"
+    },
+    {
+      "sku": "export-aa",
+      "name": "Tanzanian green coffee, grade AA",
+      "price": 8.4,
+      "currency": "USD",
+      "category": "export",
+      "unit": "kg",
+      "image": ""
+    },
+    {
+      "sku": "export-ab",
+      "name": "Tanzanian green coffee, grade AB",
+      "price": 8.4,
+      "currency": "USD",
+      "category": "export",
+      "unit": "kg",
+      "image": ""
+    },
+    {
+      "sku": "export-pb",
+      "name": "Tanzanian green coffee, grade PB",
+      "price": 8.4,
+      "currency": "USD",
+      "category": "export",
+      "unit": "kg",
+      "image": ""
+    },
+    {
+      "sku": "export-faq",
+      "name": "Tanzanian green coffee, grade FAQ",
+      "price": 8.4,
+      "currency": "USD",
+      "category": "export",
+      "unit": "kg",
+      "image": ""
+    },
+    {
+      "sku": "export-rb",
+      "name": "Tanzanian green coffee, grade RB",
+      "price": 8.4,
+      "currency": "USD",
+      "category": "export",
+      "unit": "kg",
+      "image": ""
+    }
+  ]
+}
